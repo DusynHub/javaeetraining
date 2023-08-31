@@ -1,14 +1,15 @@
-package org.example;
+package org.example.injection;
 
-
+import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 
+@ApplicationScoped
 public class Logger {
 
     protected DateSource dateSource;
 
     @Inject
-    public Logger( @Source(value = SourceSpec.SOURCE2) DateSource dateSource) {
+    public Logger( DateSource dateSource) {
         this.dateSource = dateSource;
     }
 

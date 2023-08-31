@@ -1,9 +1,8 @@
-package org.example;
+package org.example.injection;
 
 import javax.annotation.ManagedBean;
 import java.util.Date;
 
-@Source(value = SourceSpec.SOURCE1)
 @ManagedBean
 public class DateSource {
     public String getDate() {

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.injection;
 
 import javax.inject.Qualifier;
 import java.lang.annotation.ElementType;

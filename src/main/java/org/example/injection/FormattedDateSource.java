@@ -1,9 +1,8 @@
-package org.example;
+package org.example.injection;
 
 import javax.annotation.ManagedBean;
 import java.util.Date;
 
-@Source(SourceSpec.SOURCE2)
 @ManagedBean
 public class FormattedDateSource extends DateSource{
     public String getDate() {
